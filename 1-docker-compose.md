@@ -13,7 +13,7 @@ Las claves y valores se separan por dos puntos seguidos de un espacio (:).
 ## Ejercicio
 El archivo compose.yaml permitirá configurar dos servicios de acuerdo con el siguiente esquema:
 
-![Ejercicio docker compose](imagenes/ejercicio-docker-compose.PNG)
+![Ejercicio docker compose](imagenes/Imagen1.PNG)
 
 ### Revise el archivo archivo compose.yaml y complete solamente las partes que solicitan <valor>, para eso considerar:
 - La clave **services** define los servicios (contenedores) que conforman tu aplicación. Cada servicio se describe con un nombre único y contiene configuraciones específicas como la imagen de Docker que debe usar, los volúmenes, las redes, las variables de entorno, y más. Para el ejercicio es necesario definir dos servicios: mysql-service y wordpress-service.
@@ -46,6 +46,7 @@ docker compose up -d <nombre servicio>
 docker compose ps
 ```
 ### COMPLETAR CON UNA CAPTURA DE PANTALLA DEL LISTADO DE LOS CONTENEDORES EN EJECUCIÓN
+![Imagen](imagenes/docker-compose.PNG)
 
 ### Detener y eliminar los contenedores definidos en el archivo
 ```
